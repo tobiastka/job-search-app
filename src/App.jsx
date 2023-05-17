@@ -46,7 +46,7 @@ function App () {
                     <div className='flex flex-row items-center bg-teal-50 text-teal-600  rounded-lg  overflow-hidden hover:shadow-md transition-shadow h-8' key={tag}>
                       <div className='mx-2'>{tag}</div>
                       <button value={tag} onClick={handlerClearTag} className='transition-colors min-h-full w-8 bg-teal-600 hover:bg-teal-950 items-center justify-center flex'>
-                        <img className='pointer-events-none' src='src/images/icon-remove.svg' alt='' />
+                        <img className='pointer-events-none' src='/icon-remove.svg' alt='' />
                       </button>
                     </div>
                   )
