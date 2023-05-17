@@ -33,7 +33,7 @@ function App () {
   return (
     <div className='bg-teal-50'>
       <header className='bg-teal-600 max-h-24 overflow-hidden'>
-        <img className='w-full' src='src\images\bg-header-desktop.svg' alt='' />
+        <img className='w-full' src='\bg-header-desktop.svg' alt='banner page' />
       </header>
       <main className='relative pt-20'>
         <div className='w-5/6 mx-auto'>
